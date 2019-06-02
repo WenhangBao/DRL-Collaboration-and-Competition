@@ -32,6 +32,7 @@ This problem is considerd solved after the average of the maximum scores of thes
 We achieve this average score and continue training to generate the score plot:
 
 ![Scores](Results.png)
+We can see that comparing to the benchmark implementation, this time the performance didn't deteriorate. In 4400 episodes the average score achieves +1. 
 
 ## Future Work
 It would be worthwhile to try differenct neural network architectures. 
