@@ -16,7 +16,7 @@ The only difference is that Critic network return a scaler which is the estimate
 
 USe Adam optimized to optimize both Actor and Critic Network.
 
-Hyperparameters:
+Hyperparameters:<br/>
 BUFFER_SIZE = int(1e5)  # replay buffer size<br/>
 BATCH_SIZE = 128        # minibatch size<br/>
 GAMMA = 1               # discount factor<br/>
