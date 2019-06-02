@@ -68,3 +68,4 @@ model.py defines the neural network architecture for Actor and Critic networks. 
 ddpg_agent.py defines the agent object. <br/>
 Tennis.ipynb describes the training process of this multi-agent environment using ddpg algorithm. <br/>
 checkpoint_actor0.5.pth and checkpoint_critic0.5.pyh are the model weights for the Actor and Critic networks, respectively which achieves average score of +0.5 over 100 epidoses.
+checkpoint_actor.pth and checkpoint_critic.pyh are the model weights for the Actor and Critic networks, respectively which achieves average score of +1 over 100 epidoses.
