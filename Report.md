@@ -31,7 +31,7 @@ In this case there is not discount in returns so parameter GAMMA is set to 1.
 This problem is considerd solved after the average of the maximum scores of these agents achieve +0.5 over 100 episodes. The performance of this model is evaluated by the maximum score of these two agents. It is a special kind of cooperateive relationship[2].
 We achieve this average score and continue training to generate the score plot:
 
-
+![Scores](Results.png)
 
 ## Future Work
 It would be worthwhile to try differenct neural network architectures. 
