@@ -28,15 +28,16 @@ WEIGHT_DECAY = 0        # L2 weight decay<br/>
 In this case there is not discount in returns so parameter GAMMA is set to 1. 
 
 ## Results
-This problem is considerd solved after the average of the maximum scores of these agents achieve +0.5 over 100 episodes. 
+This problem is considerd solved after the average of the maximum scores of these agents achieve +0.5 over 100 episodes. The performance of this model is evaluated by the maximum score of these two agents. It is a special kind of cooperateive relationship[2].
 We achieve this average score and continue training to generate the score plot:
 
 
 
 ## Future Work
-It would be worthwhile to try differenct architectures. Also, training 20 agents who share the same replay buffer is not the real multi-agent environment. 
+It would be worthwhile to try differenct neural network architectures. 
 It is also great if we can train our agents in a multi-agent environment where information sharing is possible. 
-Simpler pocicy-based methods should also be able to achieve the goal.
+Simpler pocicy-based methods should also be able to achieve the goal. Change rewards function to adjust the behavior may improve overall performance. 
 
 ## References
 [1] <a href="https://arxiv.org/pdf/1509.02971.pdf" target="_blank">Continuous control with deep reinforcement learning</a><br/>
+[2] <a href="https://arxiv.org/pdf/1706.02275.pdf" target="_blank">Multi-agent actor-critic for mixed cooperative-competitive envirionments</a><br/>
